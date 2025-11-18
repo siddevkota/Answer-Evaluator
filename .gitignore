@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+pip-wheel-metadata/
+
+# Environment variables / secrets
+.env
+*.key
+
+# Lock files
+poetry.lock
+Pipfile.lock
+uv.lock
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Local settings
+local_settings.py
