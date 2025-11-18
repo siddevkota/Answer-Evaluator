@@ -1,11 +1,49 @@
-# 🎓 Answer Evaluator
+Answer Evaluator
 
 
-An AI-powered exam answer evaluation system built with FastAPI and Streamlit.An AI-powered system for evaluating student exam answers using OpenAI's GPT models. The system can automatically generate rubrics, evaluate answers against syllabus topics and textbooks, and provide detailed feedback.
+Simple AI-powered exam answer evaluation using a FastAPI backend and a Streamlit frontend.
+
+Quick start
 
 
 
-## 📋 Table of Contents
+1. Copy the example env and add your OpenAI key:
+
+   ```bash
+   cp .env.example .env
+   # Edit .env and set OPENAI_API_KEY
+   ```
+
+2. Create and activate a virtual environment, then install dependencies:
+
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+3. Run the backend (FastAPI):
+
+   ```bash
+   uvicorn backend.app.main:app --reload --port 8000
+   ```
+
+4. Run the frontend (Streamlit):
+
+   ```bash
+   streamlit run frontend/app.py
+   ```
+
+Repository layout (top-level)
+
+- `backend/` — FastAPI application and services
+- `frontend/` — Streamlit UI
+- `data/` — example PDFs and JSON test data
+- `.env.example`, `requirements.txt`, `pyproject.toml`
+
+License
+
+MIT
 
 - [Features](#features)
 
