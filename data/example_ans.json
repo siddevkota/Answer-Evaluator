@@ -1,0 +1,30 @@
+{
+    "student_name": "Alice Sharma",
+    "student_roll": "S2024001",
+    "answers": [
+        {
+            "question_number": "1",
+            "answer_text": "A thermodynamic system is the specific part of the universe that we decide to study, separated from everything else by a boundary. Across this boundary, heat and work (and sometimes mass) may cross depending on the type of system. For example, in an internal combustion engine, the gas mixture confined inside one cylinder during the compression and power strokes can be treated as the system."
+        },
+        {
+            "question_number": "2",
+            "answer_text": "Intensive properties do not depend on the amount of substance present. If we divide the system in half, properties like temperature and pressure remain the same in each part. Extensive properties scale with the size or mass of the system. If we double the amount of substance, extensive properties like total volume, total mass and total internal energy also double."
+        },
+        {
+            "question_number": "3",
+            "answer_text": "A thermodynamic cycle is a sequence of processes that causes a system to return to its original thermodynamic state. That means properties such as pressure, temperature, specific volume and internal energy at the end of the sequence are the same as at the beginning. Although the state is the same, there is usually a net heat transfer and a net work transfer between the system and the surroundings over one complete cycle."
+        },
+        {
+            "question_number": "4",
+            "answer_text": "An equilibrium state is a condition in which all macroscopic properties of the system remain constant with time if the system is isolated. There are no unbalanced driving forces such as temperature differences, pressure differences or concentration gradients. Therefore there is no net heat flow, no bulk motion due to pressure differences and no net chemical reaction driving the system to change. Once a system is in equilibrium, it will stay in that state unless disturbed from outside."
+        },
+        {
+            "question_number": "5",
+            "answer_text": "Here the gas in the piston–cylinder undergoes several processes but finally returns to its initial state of 300 kPa and 500 K. This sequence of processes that brings the system back to the same state is called a thermodynamic cycle. Because the initial and final states are identical, the change in internal energy over one complete cycle is zero.\n\nThe First Law of Thermodynamics for a cycle states that the net heat supplied to the system over the cycle equals the net work done by the system: Q_net = W_net, since ΔU_cycle = 0.\n\nThe Second Law, in the Kelvin–Planck form, states that it is impossible to construct a cyclic device that converts all the heat supplied into work with no other effect; some heat must be rejected to a lower-temperature reservoir.\n\nIn this piston–cylinder cycle, energy in the form of heat is added to and removed from the gas, and the gas does work on the piston. Over one complete cycle the internal energy returns to its original value, so Q_net = W_net. However, because the real processes inside the cylinder are irreversible (friction, finite temperature differences, etc.), not all of the heat supplied can be converted into work. Part of it must be rejected, which is exactly what the Second Law predicts."
+        },
+        {
+            "question_number": "6",
+            "answer_text": "Thermodynamics is fundamental in designing and analysing power plants, refrigeration systems and renewable-energy devices because it tells us how energy can be converted and transferred.\n\nIn a steam power plant, the working fluid in the boiler, turbine and condenser is usually chosen as the system. The surroundings include the cooling water, the atmosphere and the rest of the plant. The boiler walls, turbine casing and condenser surfaces act as boundaries across which heat and work cross. By applying the First and Second Laws to this system we can determine cycle efficiency, fuel consumption and where losses occur.\n\nIn a refrigerator or air-conditioning system, the refrigerant circulating through the evaporator, compressor and condenser can be considered the system. The cooled room and the outside environment act as surroundings. Heat crosses the boundary at the evaporator and condenser coils, and shaft work crosses at the compressor. Thermodynamics helps us size components and estimate the coefficient of performance.\n\nFor renewable systems, such as solar-thermal collectors or organic Rankine cycle units, we again define an appropriate system (for example, the heat-transfer fluid or working fluid loop) and clearly identify boundaries and surroundings. Then we can analyse how much of the solar energy crossing the boundary can be converted to useful work or useful heat. Correctly defining system, surroundings and boundary is the first step in writing energy and entropy balances and improving the efficiency of all these applications."
+        }
+    ]
+}

@@ -1,0 +1,362 @@
+{
+  "students": [
+    {
+      "student_name": "Alice Sharma",
+      "student_roll": "S2024001",
+      "total_score": 46.5,
+      "total_max": 80.0,
+      "percentage": 58.13,
+      "evaluations": [
+        {
+          "question_number": "1",
+          "question_text": "Define a 'thermodynamic system' and give an engineering example.",
+          "student_answer": "A thermodynamic system is the specific part of the universe that we decide to study, separated from everything else by a boundary. Across this boundary, heat and work (and sometimes mass) may cross depending on the type of system. For example, in an internal combustion engine, the gas mixture confined inside one cylinder during the compression and power strokes can be treated as the system.",
+          "score": 4.75,
+          "max_score": 5.0,
+          "feedback": "The student's answer provides a clear and accurate definition of a thermodynamic system, effectively identifying the concept of a boundary and how it separates the system from its surroundings. The inclusion of how heat, work, and sometimes mass can cross the boundary adds depth to the definition, showing a good understanding of the concept. The example of the gas mixture inside a cylinder of an internal combustion engine during compression and power strokes is highly relevant to engineering and aptly illustrates the concept of a thermodynamic system. However, the answer could be slightly improved by directly stating that the boundary allows for the selective transfer of energy and mass, which would align it more closely with the model answer's emphasis on the system's interaction with its surroundings. Overall, the answer is clear, concise, and well-structured, but a minor improvement could be made by explicitly mentioning the selective transfer across the boundary.",
+          "rubric_breakdown": {
+            "Definition Accuracy": 2.0,
+            "Boundary Identification": 1.0,
+            "Example Relevance": 1.5,
+            "Clarity and Conciseness": 0.25
+          },
+          "model_comparison": "The student's answer aligns well with the model answer in terms of defining a thermodynamic system and providing a relevant engineering example. Both answers correctly identify the system's boundary and its role in separating the system from its surroundings. The student's answer adds value by mentioning the transfer of heat, work, and mass across the boundary, which, while not explicitly required, enhances understanding. The main difference lies in the clarity and conciseness criterion, where the student's answer could slightly improve by emphasizing the selective transfer across the boundary more directly, as implied in the model answer.",
+          "syllabus_topics": [
+            107,
+            4
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.48)"
+          ]
+        },
+        {
+          "question_number": "2",
+          "question_text": "What is the difference between an intensive and an extensive property?",
+          "student_answer": "Intensive properties do not depend on the amount of substance present. If we divide the system in half, properties like temperature and pressure remain the same in each part. Extensive properties scale with the size or mass of the system. If we double the amount of substance, extensive properties like total volume, total mass and total internal energy also double.",
+          "score": 4.5,
+          "max_score": 5.0,
+          "feedback": "Your answer provides a clear and accurate distinction between intensive and extensive properties, with appropriate examples for each. You successfully explained how intensive properties remain unchanged when the system is divided, and how extensive properties scale with the size or mass of the system. However, the answer could be improved by directly stating that intensive properties are independent of system size, and extensive properties depend on system size, to more closely align with the model answer's clarity. Additionally, while your examples are correct and relevant, including a broader range of examples could enhance your answer.",
+          "rubric_breakdown": {
+            "Definition Accuracy": 2.0,
+            "Examples": 1.5,
+            "Independence or Dependence on System Size": 0.5,
+            "Clarity and Conciseness": 0.5
+          },
+          "model_comparison": "The student's answer aligns well with the model answer in terms of defining both intensive and extensive properties and providing correct examples. However, the student's explanation of the dependence or independence on system size, while accurate, lacks the directness and clarity of the model answer. The student could improve by explicitly stating the independence or dependence of each property type on system size, as done in the model answer.",
+          "syllabus_topics": [
+            6,
+            10
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.30)"
+          ]
+        },
+        {
+          "question_number": "3",
+          "question_text": "What is meant by a 'thermodynamic cycle'?",
+          "student_answer": "A thermodynamic cycle is a sequence of processes that causes a system to return to its original thermodynamic state. That means properties such as pressure, temperature, specific volume and internal energy at the end of the sequence are the same as at the beginning. Although the state is the same, there is usually a net heat transfer and a net work transfer between the system and the surroundings over one complete cycle.",
+          "score": 2.5,
+          "max_score": 5.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            107,
+            63
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.48)"
+          ]
+        },
+        {
+          "question_number": "4",
+          "question_text": "Explain the term 'equilibrium state' in thermodynamics.",
+          "student_answer": "An equilibrium state is a condition in which all macroscopic properties of the system remain constant with time if the system is isolated. There are no unbalanced driving forces such as temperature differences, pressure differences or concentration gradients. Therefore there is no net heat flow, no bulk motion due to pressure differences and no net chemical reaction driving the system to change. Once a system is in equilibrium, it will stay in that state unless disturbed from outside.",
+          "score": 2.5,
+          "max_score": 5.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            12,
+            68
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.34)"
+          ]
+        },
+        {
+          "question_number": "5",
+          "question_text": "A piston-cylinder device contains 1 kg of ideal gas initially at 300 kPa and 500 K. It undergoes a series of processes and returns to its initial state. Define what constitutes a 'cycle' and state the First and Second Laws of Thermodynamics. Then explain how they apply to this piston-cylinder cycle.",
+          "student_answer": "Here the gas in the piston\u2013cylinder undergoes several processes but finally returns to its initial state of 300 kPa and 500 K. This sequence of processes that brings the system back to the same state is called a thermodynamic cycle. Because the initial and final states are identical, the change in internal energy over one complete cycle is zero.\n\nThe First Law of Thermodynamics for a cycle states that the net heat supplied to the system over the cycle equals the net work done by the system: Q_net = W_net, since \u0394U_cycle = 0.\n\nThe Second Law, in the Kelvin\u2013Planck form, states that it is impossible to construct a cyclic device that converts all the heat supplied into work with no other effect; some heat must be rejected to a lower-temperature reservoir.\n\nIn this piston\u2013cylinder cycle, energy in the form of heat is added to and removed from the gas, and the gas does work on the piston. Over one complete cycle the internal energy returns to its original value, so Q_net = W_net. However, because the real processes inside the cylinder are irreversible (friction, finite temperature differences, etc.), not all of the heat supplied can be converted into work. Part of it must be rejected, which is exactly what the Second Law predicts.",
+          "score": 5.0,
+          "max_score": 10.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            63,
+            74
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.48)"
+          ]
+        },
+        {
+          "question_number": "6",
+          "question_text": "Discuss the relevance of thermodynamics in modern engineering applications such as power plants, refrigeration systems, and renewable energy systems. Link the ideas of system, surroundings, and boundary in your answer.",
+          "student_answer": "Thermodynamics is fundamental in designing and analysing power plants, refrigeration systems and renewable-energy devices because it tells us how energy can be converted and transferred.\n\nIn a steam power plant, the working fluid in the boiler, turbine and condenser is usually chosen as the system. The surroundings include the cooling water, the atmosphere and the rest of the plant. The boiler walls, turbine casing and condenser surfaces act as boundaries across which heat and work cross. By applying the First and Second Laws to this system we can determine cycle efficiency, fuel consumption and where losses occur.\n\nIn a refrigerator or air-conditioning system, the refrigerant circulating through the evaporator, compressor and condenser can be considered the system. The cooled room and the outside environment act as surroundings. Heat crosses the boundary at the evaporator and condenser coils, and shaft work crosses at the compressor. Thermodynamics helps us size components and estimate the coefficient of performance.\n\nFor renewable systems, such as solar-thermal collectors or organic Rankine cycle units, we again define an appropriate system (for example, the heat-transfer fluid or working fluid loop) and clearly identify boundaries and surroundings. Then we can analyse how much of the solar energy crossing the boundary can be converted to useful work or useful heat. Correctly defining system, surroundings and boundary is the first step in writing energy and entropy balances and improving the efficiency of all these applications.",
+          "score": 5.0,
+          "max_score": 10.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            107,
+            63
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.57)"
+          ]
+        },
+        {
+          "question_number": "1",
+          "question_text": "Define a 'thermodynamic system' and give an engineering example.",
+          "student_answer": "A thermodynamic system is the specific part of the universe that we decide to study, separated from everything else by a boundary. Across this boundary, heat and work (and sometimes mass) may cross depending on the type of system. For example, in an internal combustion engine, the gas mixture confined inside one cylinder during the compression and power strokes can be treated as the system.",
+          "score": 4.75,
+          "max_score": 5.0,
+          "feedback": "The student's answer provides a clear and accurate definition of a thermodynamic system, effectively mentioning the concept of a boundary and how it separates the system from its surroundings. The inclusion of details about heat, work, and mass transfer across the boundary adds depth to the definition, showing a good understanding of the concept. The example of an internal combustion engine is highly relevant to engineering and correctly illustrates the concept of a thermodynamic system, specifically during the compression and power strokes. However, while the answer is mostly clear and concise, the additional details about heat, work, and mass transfer, although informative, slightly detract from the conciseness of the definition. This minor issue is the only reason for not awarding a full score.",
+          "rubric_breakdown": {
+            "Definition Accuracy": 2.0,
+            "Boundary Identification": 1.0,
+            "Example Relevance": 1.5,
+            "Clarity and Conciseness": 0.25
+          },
+          "model_comparison": "The student's answer aligns well with the model answer, providing a correct and comprehensive definition of a thermodynamic system and an appropriate engineering example. The student's inclusion of details about heat, work, and mass transfer, while not present in the model answer, enriches the explanation without straying from the question's requirements. The only deviation from the model answer is in the aspect of conciseness, where the student's additional details slightly reduce the conciseness of the response.",
+          "syllabus_topics": [
+            107,
+            4
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.48)"
+          ]
+        },
+        {
+          "question_number": "2",
+          "question_text": "What is the difference between an intensive and an extensive property?",
+          "student_answer": "Intensive properties do not depend on the amount of substance present. If we divide the system in half, properties like temperature and pressure remain the same in each part. Extensive properties scale with the size or mass of the system. If we double the amount of substance, extensive properties like total volume, total mass and total internal energy also double.",
+          "score": 2.5,
+          "max_score": 5.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            6,
+            10
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.30)"
+          ]
+        },
+        {
+          "question_number": "3",
+          "question_text": "What is meant by a 'thermodynamic cycle'?",
+          "student_answer": "A thermodynamic cycle is a sequence of processes that causes a system to return to its original thermodynamic state. That means properties such as pressure, temperature, specific volume and internal energy at the end of the sequence are the same as at the beginning. Although the state is the same, there is usually a net heat transfer and a net work transfer between the system and the surroundings over one complete cycle.",
+          "score": 2.5,
+          "max_score": 5.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            107,
+            63
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.48)"
+          ]
+        },
+        {
+          "question_number": "4",
+          "question_text": "Explain the term 'equilibrium state' in thermodynamics.",
+          "student_answer": "An equilibrium state is a condition in which all macroscopic properties of the system remain constant with time if the system is isolated. There are no unbalanced driving forces such as temperature differences, pressure differences or concentration gradients. Therefore there is no net heat flow, no bulk motion due to pressure differences and no net chemical reaction driving the system to change. Once a system is in equilibrium, it will stay in that state unless disturbed from outside.",
+          "score": 2.5,
+          "max_score": 5.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            12,
+            68
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.34)"
+          ]
+        },
+        {
+          "question_number": "5",
+          "question_text": "A piston-cylinder device contains 1 kg of ideal gas initially at 300 kPa and 500 K. It undergoes a series of processes and returns to its initial state. Define what constitutes a 'cycle' and state the First and Second Laws of Thermodynamics. Then explain how they apply to this piston-cylinder cycle.",
+          "student_answer": "Here the gas in the piston\u2013cylinder undergoes several processes but finally returns to its initial state of 300 kPa and 500 K. This sequence of processes that brings the system back to the same state is called a thermodynamic cycle. Because the initial and final states are identical, the change in internal energy over one complete cycle is zero.\n\nThe First Law of Thermodynamics for a cycle states that the net heat supplied to the system over the cycle equals the net work done by the system: Q_net = W_net, since \u0394U_cycle = 0.\n\nThe Second Law, in the Kelvin\u2013Planck form, states that it is impossible to construct a cyclic device that converts all the heat supplied into work with no other effect; some heat must be rejected to a lower-temperature reservoir.\n\nIn this piston\u2013cylinder cycle, energy in the form of heat is added to and removed from the gas, and the gas does work on the piston. Over one complete cycle the internal energy returns to its original value, so Q_net = W_net. However, because the real processes inside the cylinder are irreversible (friction, finite temperature differences, etc.), not all of the heat supplied can be converted into work. Part of it must be rejected, which is exactly what the Second Law predicts.",
+          "score": 5.0,
+          "max_score": 10.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            63,
+            74
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.48)"
+          ]
+        },
+        {
+          "question_number": "6",
+          "question_text": "Discuss the relevance of thermodynamics in modern engineering applications such as power plants, refrigeration systems, and renewable energy systems. Link the ideas of system, surroundings, and boundary in your answer.",
+          "student_answer": "Thermodynamics is fundamental in designing and analysing power plants, refrigeration systems and renewable-energy devices because it tells us how energy can be converted and transferred.\n\nIn a steam power plant, the working fluid in the boiler, turbine and condenser is usually chosen as the system. The surroundings include the cooling water, the atmosphere and the rest of the plant. The boiler walls, turbine casing and condenser surfaces act as boundaries across which heat and work cross. By applying the First and Second Laws to this system we can determine cycle efficiency, fuel consumption and where losses occur.\n\nIn a refrigerator or air-conditioning system, the refrigerant circulating through the evaporator, compressor and condenser can be considered the system. The cooled room and the outside environment act as surroundings. Heat crosses the boundary at the evaporator and condenser coils, and shaft work crosses at the compressor. Thermodynamics helps us size components and estimate the coefficient of performance.\n\nFor renewable systems, such as solar-thermal collectors or organic Rankine cycle units, we again define an appropriate system (for example, the heat-transfer fluid or working fluid loop) and clearly identify boundaries and surroundings. Then we can analyse how much of the solar energy crossing the boundary can be converted to useful work or useful heat. Correctly defining system, surroundings and boundary is the first step in writing energy and entropy balances and improving the efficiency of all these applications.",
+          "score": 5.0,
+          "max_score": 10.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            107,
+            63
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.57)"
+          ]
+        }
+      ]
+    },
+    {
+      "student_name": "Kiran Thapa",
+      "student_roll": "S2024003",
+      "total_score": 14.0,
+      "total_max": 40.0,
+      "percentage": 35.0,
+      "evaluations": [
+        {
+          "question_number": "1",
+          "question_text": "Define a 'thermodynamic system' and give an engineering example.",
+          "student_answer": "A thermodynamic system is just anything that has heat in it. For example, the whole power plant can be called one system.",
+          "score": 2.0,
+          "max_score": 5.0,
+          "feedback": "Your answer provides a very broad and somewhat inaccurate definition of a thermodynamic system. While it's true that thermodynamic systems often involve heat, defining them merely as 'anything that has heat in it' misses the crucial aspects of boundary and selection for study. The definition of a thermodynamic system emphasizes its separation from the surroundings by a boundary, which was not mentioned in your answer. Additionally, while a power plant can indeed be considered a system, your example lacks specificity in illustrating the concept of a thermodynamic system as it does not mention the boundaries or the specific parts of the power plant being studied. To improve, focus on the importance of boundaries in defining a system and try to provide more detailed examples that clearly illustrate these concepts.",
+          "rubric_breakdown": {
+            "Definition Accuracy": 0.5,
+            "Boundary Identification": 0.0,
+            "Example Relevance": 1.0,
+            "Clarity and Conciseness": 0.5
+          },
+          "model_comparison": "The model answer provides a precise definition of a thermodynamic system, emphasizing the importance of a boundary separating the system from its surroundings. It also gives a specific example of a piston-cylinder assembly to illustrate the concept clearly. In contrast, your answer lacks the specificity and accuracy required to fully meet the criteria of the question. Including the concept of boundaries and providing a more focused example relevant to the definition would make your answer more aligned with the model response.",
+          "syllabus_topics": [
+            107,
+            63
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.42)"
+          ]
+        },
+        {
+          "question_number": "2",
+          "question_text": "What is the difference between an intensive and an extensive property?",
+          "student_answer": "Intensive properties are more important properties and extensive are less important. Intensive is like energy and extensive is like temperature.",
+          "score": 1.0,
+          "max_score": 5.0,
+          "feedback": "The answer provided does not accurately define intensive and extensive properties in terms of their dependence on system size, which is a critical aspect of understanding these concepts in thermodynamics. The examples given are incorrect; energy is an extensive property, and temperature is an intensive property. The answer fails to clearly explain the independence or dependence on system size for both types of properties and lacks clarity and conciseness. It is important to understand that the distinction between intensive and extensive properties is not about their importance but rather their relationship with the system size.",
+          "rubric_breakdown": {
+            "Definition Accuracy": 0.0,
+            "Examples": 0.0,
+            "Independence or Dependence on System Size": 0.5,
+            "Clarity and Conciseness": 0.5
+          },
+          "model_comparison": "The student's answer significantly deviates from the model answer. The model answer correctly identifies intensive properties as independent of system size, with examples like temperature and pressure, and extensive properties as dependent on system size, with examples like mass, volume, and total energy. The student's answer incorrectly identifies the nature of intensive and extensive properties and provides incorrect examples, demonstrating a fundamental misunderstanding of the concepts.",
+          "syllabus_topics": [
+            6,
+            10
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.29)"
+          ]
+        },
+        {
+          "question_number": "3",
+          "question_text": "What is meant by a 'thermodynamic cycle'?",
+          "student_answer": "A thermodynamic cycle is when the temperature in the system goes up and down again and again. So it is mainly about temperature changes.",
+          "score": 1.5,
+          "max_score": 5.0,
+          "feedback": "Your answer focuses primarily on temperature changes within a system, which is a common misunderstanding. A thermodynamic cycle involves more than just temperature variations; it encompasses a series of processes that return a system to its initial state, ensuring the net change in state variables (not just temperature) is zero, while allowing for heat and/or work transfers. It's crucial to understand and mention that these cycles are not solely about temperature changes but about the overall process that includes energy transfer in the form of work and heat. For improvement, try to include these key aspects in your definition to provide a more comprehensive and accurate explanation.",
+          "rubric_breakdown": {
+            "Definition Accuracy": 0.5,
+            "State Variables": 0.0,
+            "Heat and Work Transfers": 0.0,
+            "Clarity and Conciseness": 1.0
+          },
+          "model_comparison": "The model answer provides a concise and accurate definition of a thermodynamic cycle, emphasizing the return to the initial state, the net zero change in state variables, and the occurrence of heat and/or work transfers. Your answer, however, primarily describes the cycle as temperature fluctuations, missing the broader and more accurate scope of thermodynamic cycles as defined in the model answer.",
+          "syllabus_topics": [
+            4,
+            107
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.39)"
+          ]
+        },
+        {
+          "question_number": "4",
+          "question_text": "Explain the term 'equilibrium state' in thermodynamics.",
+          "student_answer": "Equilibrium means everything is equal everywhere, like all systems have the same temperature and pressure in the universe. So it is a very ideal condition that we don\u2019t really get.",
+          "score": 2.5,
+          "max_score": 5.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            12,
+            55
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.29)"
+          ]
+        },
+        {
+          "question_number": "5",
+          "question_text": "A piston-cylinder device contains 1 kg of ideal gas initially at 300 kPa and 500 K. It undergoes a series of processes and returns to its initial state. Define what constitutes a 'cycle' and state the First and Second Laws of Thermodynamics. Then explain how they apply to this piston-cylinder cycle.",
+          "student_answer": "The cycle here means the piston keeps moving up and down many times. First law says energy is always increasing, so we get more and more energy with each cycle. Second law means energy is destroyed by friction, so it disappears.\n\nSo in this case the piston motion just creates more energy but also some of it is lost at the same time.",
+          "score": 2.0,
+          "max_score": 10.0,
+          "feedback": "Your answer demonstrates a basic understanding of the concept of a cycle but lacks accuracy and completeness in explaining the First and Second Laws of Thermodynamics as they apply to the piston-cylinder device. The cycle is not merely the piston moving up and down; it involves the system undergoing a series of processes and returning to its initial state with no net change in internal energy. The First Law of Thermodynamics states that the net heat input is equal to the net work output over a complete cycle, not that energy continuously increases. The Second Law indicates that not all heat can be converted into work due to inefficiencies like friction, but it does not imply that energy is destroyed; rather, it transforms in a way that increases the entropy of the universe. It's crucial to understand that energy cannot be created nor destroyed (First Law) and that there's always a limit to the efficiency of converting heat into work (Second Law).",
+          "rubric_breakdown": {
+            "Accuracy": 1.0,
+            "Completeness": 1.0
+          },
+          "model_comparison": "The model answer clearly defines a cycle, accurately describes the First and Second Laws of Thermodynamics, and applies these laws to the piston-cylinder scenario, emphasizing the conservation of energy and the inefficiency of energy conversion. Your answer, however, misinterprets the First Law as suggesting a perpetual increase in energy and incorrectly describes the Second Law as energy being destroyed, which deviates significantly from the correct thermodynamic principles.",
+          "syllabus_topics": [
+            112,
+            12
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.31)"
+          ]
+        },
+        {
+          "question_number": "6",
+          "question_text": "Discuss the relevance of thermodynamics in modern engineering applications such as power plants, refrigeration systems, and renewable energy systems. Link the ideas of system, surroundings, and boundary in your answer.",
+          "student_answer": "Thermodynamics was mainly used in old steam engines and big power plants, but it is not very important for modern renewable energy because that uses new technology. System and surroundings are just theory terms in books and do not have much use in real design work.",
+          "score": 5.0,
+          "max_score": 10.0,
+          "feedback": "Automated evaluation encountered an error. Manual review recommended. Error: Expecting value: line 1 column 1 (char 0)",
+          "rubric_breakdown": {},
+          "model_comparison": "Unable to compare due to processing error.",
+          "syllabus_topics": [
+            107,
+            14
+          ],
+          "textbook_refs": [
+            "Introduction to Engineering Thermodynamics (relevance: 0.50)"
+          ]
+        }
+      ]
+    }
+  ],
+  "total_students": 2
+}

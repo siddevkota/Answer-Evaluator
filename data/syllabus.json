@@ -1,0 +1,103 @@
+{
+    "syllabus": [
+        {
+            "chapter_number": 1,
+            "chapter_title": "Basic Concepts & Definitions",
+            "topics": [
+                "What is thermodynamics about?",
+                "System and surroundings",
+                "Extensive and intensive properties",
+                "State, process and cycle"
+            ],
+            "learning_outcomes": [
+                "Define system, surroundings, closed / open / isolated systems.",
+                "Distinguish between extensive and intensive properties with examples.",
+                "Explain the concepts of state, process, cycle and equilibrium in thermodynamics.",
+                "Describe engineering applications of thermodynamics (e.g., power plants, refrigeration) and identify system boundaries."
+            ],
+            "suggested_textbook_pages": "Chapter 1 (approx. pages 1-25)"
+        },
+        {
+            "chapter_number": 2,
+            "chapter_title": "Thermodynamic Properties of a Pure Substance",
+            "topics": [
+                "Pure substance definition",
+                "Thermodynamic properties (u, h, s, v etc.)",
+                "Phase diagrams (T-v, P-v, T-s)",
+                "Thermodynamic tables"
+            ],
+            "learning_outcomes": [
+                "Describe what a pure substance is and its relevance in engineering thermodynamics.",
+                "Interpret phase diagrams and locate states of a pure substance.",
+                "Use thermodynamic property tables to determine internal energy, enthalpy and entropy of a given state.",
+                "Explain the concepts of critical point, triple point and quality of a two-phase mixture."
+            ],
+            "suggested_textbook_pages": "Chapter 2 (approx. pages 26-60)"
+        },
+        {
+            "chapter_number": 3,
+            "chapter_title": "Ideal and Real Gases",
+            "topics": [
+                "Ideal gas and the ideal gas equation of state",
+                "Real gas behaviour and compressibility factor",
+                "Applications of ideal and real gas models"
+            ],
+            "learning_outcomes": [
+                "State the ideal gas equation of state and identify conditions when it is valid.",
+                "Explain deviation from ideal behaviour and define the compressibility factor.",
+                "Apply real gas models to engineering problems where ideal gas law fails."
+            ],
+            "suggested_textbook_pages": "Chapter 3 (approx. pages 61-85)"
+        },
+        {
+            "chapter_number": 4,
+            "chapter_title": "The First Law of Thermodynamics for Closed Systems",
+            "topics": [
+                "Internal energy in a system",
+                "Heat transfer across a boundary",
+                "Work (boundary work, shaft work etc.)",
+                "First law for closed systems"
+            ],
+            "learning_outcomes": [
+                "Explain internal energy and its role in closed-system energy analysis.",
+                "Distinguish heat transfer and work interactions across system boundaries.",
+                "Formulate and apply the first law of thermodynamics for closed systems to real-life engineering devices."
+            ],
+            "suggested_textbook_pages": "Chapter 4 (approx. pages 86-120)"
+        },
+        {
+            "chapter_number": 5,
+            "chapter_title": "The First Law of Thermodynamics for a Control Volume",
+            "topics": [
+                "Enthalpy and flow work",
+                "Mass and energy conservation equations in a control volume",
+                "Applications in steady-flow devices (turbines, compressors, heat exchangers)"
+            ],
+            "learning_outcomes": [
+                "Define enthalpy and explain why it is used in control-volume analyses.",
+                "Apply the mass and energy conservation equations for a control volume under steady flow conditions.",
+                "Analyse key engineering devices (e.g., turbines, compressors, heat exchangers) using the first law."
+            ],
+            "suggested_textbook_pages": "Chapter 5 (approx. pages 121-155)"
+        },
+        {
+            "chapter_number": 6,
+            "chapter_title": "Entropy and the Second Law of Thermodynamics",
+            "topics": [
+                "Heat engines",
+                "Refrigerators & heat pumps",
+                "Second law: Kelvin-Planck and Clausius statements",
+                "Carnot cycles",
+                "Entropy and entropy generation",
+                "Second law for closed and open systems"
+            ],
+            "learning_outcomes": [
+                "State and explain the Kelvin-Planck and Clausius statements of the second law.",
+                "Define entropy, entropy generation and comment on irreversibility in engineering systems.",
+                "Apply the second law to closed and open systems and assess device efficiency using Carnot cycles.",
+                "Analyse engineering systems such as heat engines, refrigerators and heat pumps from a second-law perspective."
+            ],
+            "suggested_textbook_pages": "Chapter 6 (approx. pages 156-200)"
+        }
+    ]
+}

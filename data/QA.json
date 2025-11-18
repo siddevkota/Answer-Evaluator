@@ -1,0 +1,189 @@
+{
+    "chapters": [
+        {
+            "chapter_number": 1,
+            "chapter_title": "Basic Concepts & Definitions",
+            "learning_objectives": [
+                "Define and distinguish between system, surroundings, closed system, open system and isolated system.",
+                "Explain the meaning of state, process, cycle and equilibrium in thermodynamics.",
+                "Describe typical engineering applications of thermodynamics (e.g., power plant, refrigeration) and explain why the concepts matter."
+            ],
+            "short_answer_questions": [
+                {
+                    "question": "Define a 'thermodynamic system' and give an engineering example.",
+                    "model_answer": "A thermodynamic system is a defined portion of the physical universe selected for study, separated by a boundary from its surroundings. For example, gas inside a piston-cylinder assembly can be considered a system if we focus on that gas only."
+                },
+                {
+                    "question": "What is the difference between an intensive and an extensive property?",
+                    "model_answer": "An intensive property is independent of the system size (e.g., temperature, pressure), whereas an extensive property depends on the system size or mass (e.g., mass, volume, total energy)."
+                },
+                {
+                    "question": "What is meant by a 'thermodynamic cycle'?",
+                    "model_answer": "A thermodynamic cycle is a series of processes that brings a system back to its initial state, so that net change in state variables is zero, but heat and/or work transfers have occurred during the cycle."
+                },
+                {
+                    "question": "Explain the term 'equilibrium state' in thermodynamics.",
+                    "model_answer": "An equilibrium state means the system has no unbalanced potentials for change: mechanical equilibrium (no net force/motion), thermal equilibrium (no net heat flow), and chemical equilibrium (no net chemical reaction or mass transfer). The system remains unchanged if isolated."
+                }
+            ],
+            "long_answer_questions": [
+                {
+                    "question": "A piston-cylinder device contains 1 kg of ideal gas initially at 300 kPa and 500 K. It undergoes a series of processes and returns to its initial state. Define what constitutes a 'cycle' and state the First and Second Laws of Thermodynamics. Then explain how they apply to this piston-cylinder cycle.",
+                    "model_answer": "— A cycle is when the system undergoes a sequence of processes and returns to the original state (so internal energy, enthalpy, etc., end where they started).  \n— The First Law (for a cycle): net heat input = net work output, because change in internal energy over a complete cycle is zero.  \n— The Second Law (Kelvin-Planck statement): no cyclic process can convert all heat input into work with 100 % efficiency; there must be heat rejection to a cooler reservoir.  \n— For the piston-cylinder: as it returns to its initial state, ΔU = 0, so Q_net = W_net. However, due to irreversibilities, some heat must be rejected; you cannot turn all heat into work. Thus the cycle obeys both laws."
+                },
+                {
+                    "question": "Discuss the relevance of thermodynamics in modern engineering applications such as power plants, refrigeration systems, and renewable energy systems. Link the ideas of system, surroundings, and boundary in your answer.",
+                    "model_answer": "Thermodynamics underpins the design and analysis of power plants (turning heat into work), refrigeration (moving heat from cold to hot), and renewable energy systems (e.g., solar thermal). In each case, the 'system' might be the working fluid or device, the 'surroundings' include the rest of the plant/environment, and the 'boundary' delineates the system. Understanding heat/work transfers, energy conservation, entropy generation, and cycles is essential to maximize efficiency and reduce losses. For example, in a steam power plant, the working fluid inside the turbine is the system; heat enters via boiler (boundary), work leaves via shaft, and heat is rejected to condenser (surroundings). Misunderstanding these boundaries leads to inefficiencies and failures."
+                }
+            ]
+        },
+        {
+            "chapter_number": 2,
+            "chapter_title": "Thermodynamic Properties of a Pure Substance",
+            "learning_objectives": [
+                "Describe what a pure substance is and how its thermodynamic properties vary in different phases (solid, liquid, vapour).",
+                "Interpret phase diagrams (T-v, P-v, T-s) and use thermodynamic tables to determine internal energy, enthalpy, and entropy of a pure substance.",
+                "Explain 'critical point', 'triple point', and 'quality' of a two-phase mixture."
+            ],
+            "short_answer_questions": [
+                {
+                    "question": "What is the critical point of a pure substance?",
+                    "model_answer": "The critical point is the highest temperature and pressure at which liquid and vapour can coexist. Above it, the substance exists as a supercritical fluid with no distinct liquid-vapour boundary."
+                },
+                {
+                    "question": "In a saturated mixture of liquid and vapour, what is meant by the 'quality' (x)?",
+                    "model_answer": "Quality is defined as the mass fraction of vapour in the mixture: x = m_vapour / m_total."
+                },
+                {
+                    "question": "Explain why internal energy and enthalpy change significantly during phase change even if temperature remains constant.",
+                    "model_answer": "During phase change (for example boiling at constant pressure), large amounts of latent heat go into changing the intermolecular structure instead of raising temperature. Thus enthalpy and internal energy change significantly while temperature is constant."
+                },
+                {
+                    "question": "What is the difference between saturated liquid and saturated vapour states?",
+                    "model_answer": "Saturated liquid is the liquid state at the point where vapour first appears; saturated vapour is the vapour state at the point where the last liquid disappears. Both lie on the saturation line at given pressure or temperature in phase diagrams."
+                }
+            ],
+            "long_answer_questions": [
+                {
+                    "question": "A vessel contains 1 kg of water at saturated liquid state at 100 °C. It is heated until the quality becomes 0.8 (i.e., 80% vapour, 20% liquid). Using steam tables, determine (a) the final internal energy (u) of the mixture, (b) the increase in internal energy, (c) locate the state on a T-s diagram and explain the process path.",
+                    "model_answer": "— From steam tables at 100 °C, find u_f (internal energy of saturated liquid) and u_fg (difference between saturated liquid and vapour). Then u_final = u_f + x·u_fg.  \n— Increase in internal energy Δu = u_final − u_f.  \n— On the T-s diagram: starting at saturated liquid line at 100 °C, moving horizontally (constant T) into the two-phase region until quality 0.8, then up to saturated vapour line if fully vapour. The process path is isothermal until phase change completes."
+                },
+                {
+                    "question": "Explain how phase diagrams (P-v and T-s) are used in characterising states of a pure substance and how they aid in engineering calculations of thermodynamic processes. Give an example of when you would use each diagram.",
+                    "model_answer": "— P-v diagrams show pressure vs specific volume; useful to visualise phase region (liquid, two-phase, vapour) and process paths (isothermal, isobaric). — T-s diagrams show temperature vs specific entropy; useful to assess irreversibility, entropy changes and efficiency. For example: in a steam turbine analysis one may use T-s diagram to plot expansion from high pressure/temperature to condenser pressure, visualise entropy increase (irreversibility) and estimate work output. In a boiler design one might use P-v diagram to determine vapour quality at given pressure."
+                }
+            ]
+        },
+        {
+            "chapter_number": 3,
+            "chapter_title": "Energy Analysis of Closed Systems",
+            "learning_objectives": [
+                "Apply conservation of energy for closed systems undergoing processes (boundary work, heat transfer).",
+                "Solve work- and heat-interaction problems in piston-cylinder devices and sealed tanks.",
+                "Explain change in internal energy, kinetic and potential energy in closed systems."
+            ],
+            "short_answer_questions": [
+                {
+                    "question": "What is boundary work in a piston-cylinder device?",
+                    "model_answer": "Boundary work is the work done by or on a system when its boundary (such as a piston) moves, calculated as the integral of pressure with respect to boundary displacement (e.g., W = ∫P dV)."
+                },
+                {
+                    "question": "Write the general energy balance for a closed system with heat transfer and boundary work only.",
+                    "model_answer": "ΔE = Q − W_boundary, where ΔE = ΔU + ΔKE + ΔPE, Q is heat added, and W_boundary is work done by the system."
+                },
+                {
+                    "question": "Why is kinetic energy and potential energy often neglected in many closed-system thermodynamics problems?",
+                    "model_answer": "Because in many engineering processes the changes in velocity and elevation are small compared to changes in internal energy, so ΔKE and ΔPE are negligible."
+                },
+                {
+                    "question": "If 0.5 m³ of gas expands in a cylinder at constant pressure 200 kPa, what is the boundary work done by the gas?",
+                    "model_answer": "W = P ΔV = 200 kPa × 0.5 m³ = 100 kJ (since 1 kPa·m³ = 1 kJ)."
+                }
+            ],
+            "long_answer_questions": [
+                {
+                    "question": "A piston-cylinder device contains 2 kg of gas initially at 300 kPa, volume 0.4 m³. It expands quasi-statically to 1.0 m³ against constant external pressure of 100 kPa. Heat transfer into the system is 250 kJ. Determine (a) boundary work done, (b) change in internal energy of the system, (c) final internal energy if initial internal energy was 450 kJ.",
+                    "model_answer": "Boundary work W = P_ext × ΔV = 100 kPa × (1.0−0.4)m³ = 100 kPa × 0.6 m³ = 60 kJ. Energy balance: ΔE = Q − W = 250 kJ − 60 kJ = 190 kJ. Since ΔE ≈ ΔU (negligible KE and PE) then ΔU = 190 kJ. Final internal energy = 450 kJ + 190 kJ = 640 kJ."
+                },
+                {
+                    "question": "Discuss why the assumption of reversible quasi-static process simplifies the energy analysis of closed systems. Contrast it with irreversible processes, giving examples.",
+                    "model_answer": "In reversible quasi-static processes the system remains in near-equilibrium at all times, work and heat transfers are idealised, and the path is well-defined so that boundary work calculations are straightforward. For irreversible processes (rapid expansion, friction, turbulence) internal dissipations and non-uniformities make analysis more complex: e.g., sudden expansion into vacuum, or rapid compressions in internal combustion engines. Such irreversibilities cause additional internal energy loss and entropy generation, and simple relations like W = ∫P dV may not directly apply."
+                }
+            ]
+        },
+        {
+            "chapter_number": 4,
+            "chapter_title": "Mass & Energy Analysis of Control Volumes",
+            "learning_objectives": [
+                "Understand steady-flow and unsteady-flow mass and energy balances for control volumes.",
+                "Apply the steady-flow energy equation to devices like turbines, nozzles, compressors, boilers and condensers.",
+                "Analyse mass- and energy-flows including enthalpy, kinetic/potential energies, shaft work, and heat transfer."
+            ],
+            "short_answer_questions": [
+                {
+                    "question": "What is a control volume in thermodynamics?",
+                    "model_answer": "A control volume is a fixed or moving boundary in space through which mass and energy may cross; the system of interest is the contents of the control volume rather than the material itself."
+                },
+                {
+                    "question": "Write the simplified steady-flow energy equation for a control volume when kinetic and potential energy changes are negligible.",
+                    "model_answer": "Q̇ − Ẇ = ṁ(h_out − h_in), where Q̇ is heat transfer rate, Ẇ is work rate, ṁ is mass flow rate, and h is specific enthalpy."
+                },
+                {
+                    "question": "Why is enthalpy used rather than internal energy in control-volume steady-flow analyses?",
+                    "model_answer": "Because in steady-flow systems mass enters and leaves, and part of the energy change is associated with flow work (P v); enthalpy (h = u + P v) conveniently accounts for internal energy plus flow work."
+                },
+                {
+                    "question": "In a steam turbine, steam enters at h₁ = 2800 kJ/kg and leaves at h₂ = 2000 kJ/kg with mass flow rate 10 kg/s. What is the ideal power output (neglecting heat loss)?",
+                    "model_answer": "Ẇ = ṁ (h₁ − h₂) = 10 kg/s × (2800 − 2000) kJ/kg = 10 × 800 = 8000 kW."
+                }
+            ],
+            "long_answer_questions": [
+                {
+                    "question": "A steady-flow compressor draws in 5 kg/s of air at 100 kPa and 300 K, and delivers it at 600 kPa and 400 K. Heat loss to surroundings is 200 kW. Assuming air as ideal gas with h = CₚT and Cₚ = 1.005 kJ/(kg·K), calculate (a) the work input to the compressor, (b) the power required.",
+                    "model_answer": "Δh = Cₚ (T₂ − T₁) = 1.005×(400−300) = 100.5 kJ/kg. For ṁ = 5 kg/s, enthalpy change = 5×100.5 = 502.5 kJ/s = 502.5 kW. From steady-flow energy: Ẇ_in = ṁΔh + Q̇_loss = 502.5 kW + 200 kW = 702.5 kW."
+                },
+                {
+                    "question": "Explain how mass accumulation and unsteady flow affect the control-volume energy analysis and give an example of a system where this must be considered.",
+                    "model_answer": "When mass accumulates or leaves the control volume over time (unsteady flow), the term d E_cv/dt (rate of change of energy within the CV) must be included: Q̇ − Ẇ + ∑in ṁ(h+ke+pe) − ∑out ṁ(h+ke+pe) = dE_cv/dt. An example is a filling tank where liquid enters and raises internal energy and potential energy, e.g., a hot-water storage device. Neglecting accumulation leads to incorrect predictions."
+                }
+            ]
+        },
+        {
+            "chapter_number": 5,
+            "chapter_title": "Second Law of Thermodynamics",
+            "learning_objectives": [
+                "State and explain the Kelvin-Planck and Clausius statements of the Second Law.",
+                "Use entropy balances and evaluate irreversibility and efficiency of simple devices.",
+                "Explain the concept of entropy generation and its importance in engineering applications."
+            ],
+            "short_answer_questions": [
+                {
+                    "question": "State the Kelvin-Planck statement of the Second Law of Thermodynamics.",
+                    "model_answer": "It is impossible to construct a heat engine operating in a cycle that converts all heat input into work without any other effect; i.e., 100 % conversion from a single heat reservoir is impossible."
+                },
+                {
+                    "question": "What is entropy generation and what does its presence indicate about a process?",
+                    "model_answer": "Entropy generation is the amount of entropy produced due to irreversibilities in a process; a non-zero amount indicates the process is irreversible."
+                },
+                {
+                    "question": "Define the Clausius statement of the Second Law.",
+                    "model_answer": "It is impossible to transfer heat from a colder body to a hotter body without any work being done."
+                },
+                {
+                    "question": "Why does the entropy of the universe increase for real processes?",
+                    "model_answer": "Because real processes are irreversible: energy dissipates, there are friction, mixing, unrestrained expansions; these cause entropy generation, so the total entropy (system + surroundings) increases."
+                }
+            ],
+            "long_answer_questions": [
+                {
+                    "question": "Steam enters a boiler as saturated liquid at 500 kPa and leaves as superheated vapour at 500 kPa, 300 °C. Heat supplied is 3000 kJ per kg. Surroundings are at 25 °C. Using entropy tables, evaluate (a) entropy change of steam, (b) approximate entropy change of surroundings, (c) entropy generation and comment on irreversibility.",
+                    "model_answer": "Calculate s_in and s_out from tables. Δs_system = s_out − s_in. Δs_surroundings ≈ −Q/T₀ = −3000 kJ/kg / (298 K) = −10.07 kJ/(kg·K). Thus S_gen = Δs_system + Δs_surroundings. If S_gen > 0 then irreversible. The presence of superheating, heat loss, and irreversibilities causes S_gen positive—it’s irreversible."
+                },
+                {
+                    "question": "Discuss how the Second Law influences the design of power-plants and refrigeration systems. Include definitions of reversible and irreversible devices and explain why engineers seek to approach reversibility.",
+                    "model_answer": "The Second Law dictates that no real engine can reach Carnot efficiency due to irreversibilities. Reversible devices set the upper bound. In power-plants engineers minimise entropy generation (fewer pressure drops, better insulations, optimised flow) to approach reversible behaviour. In refrigeration, the Second Law defines minimum work input for a given heat removal (COP) and shows why real COPs are always lower. Engineers seek designs with less internal friction, better heat exchangers, and fewer finite-time effects to reduce S_gen and increase efficiency."
+                }
+            ]
+        }
+    ]
+}

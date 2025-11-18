@@ -1,0 +1,30 @@
+{
+    "student_name": "Kiran Thapa",
+    "student_roll": "S2024003",
+    "answers": [
+        {
+            "question_number": "1",
+            "answer_text": "A thermodynamic system is just anything that has heat in it. For example, the whole power plant can be called one system."
+        },
+        {
+            "question_number": "2",
+            "answer_text": "Intensive properties are more important properties and extensive are less important. Intensive is like energy and extensive is like temperature."
+        },
+        {
+            "question_number": "3",
+            "answer_text": "A thermodynamic cycle is when the temperature in the system goes up and down again and again. So it is mainly about temperature changes."
+        },
+        {
+            "question_number": "4",
+            "answer_text": "Equilibrium means everything is equal everywhere, like all systems have the same temperature and pressure in the universe. So it is a very ideal condition that we don’t really get."
+        },
+        {
+            "question_number": "5",
+            "answer_text": "The cycle here means the piston keeps moving up and down many times. First law says energy is always increasing, so we get more and more energy with each cycle. Second law means energy is destroyed by friction, so it disappears.\n\nSo in this case the piston motion just creates more energy but also some of it is lost at the same time."
+        },
+        {
+            "question_number": "6",
+            "answer_text": "Thermodynamics was mainly used in old steam engines and big power plants, but it is not very important for modern renewable energy because that uses new technology. System and surroundings are just theory terms in books and do not have much use in real design work."
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "student_name": "Bikash Rai",
+    "student_roll": "S2024002",
+    "answers": [
+        {
+            "question_number": "1",
+            "answer_text": "A thermodynamic system is basically the part of the world we are focusing on in a problem. For example, we can consider a boiler in a power plant as the system, and everything outside it is surroundings."
+        },
+        {
+            "question_number": "2",
+            "answer_text": "Intensive properties stay the same even if we divide the system, like temperature or pressure. Extensive properties can change with the amount of substance, like volume or mass."
+        },
+        {
+            "question_number": "3",
+            "answer_text": "A thermodynamic cycle is when the system goes through some steps and then repeats them again and again, like in engines where the same cycle keeps running to produce power."
+        },
+        {
+            "question_number": "4",
+            "answer_text": "An equilibrium state is when the system is stable and nothing seems to be changing with time. The temperature and pressure appear constant and there is no obvious motion."
+        },
+        {
+            "question_number": "5",
+            "answer_text": "In this case the gas in the cylinder starts from a certain condition, goes through some processes, and then comes back to that same condition. That is called a cycle. The first law of thermodynamics says energy is conserved, so the heat we give to the gas is used to do work and change internal energy. Over a whole cycle the internal energy comes back to the original value so the main effect is that the net heat supplied becomes net work output.\n\nThe second law tells us we can never convert all the heat into work with 100% efficiency. There will always be some losses and some heat rejection. So in this piston–cylinder example, we supply heat, the gas does work on the piston, and some heat is also rejected to the surroundings."
+        },
+        {
+            "question_number": "6",
+            "answer_text": "Thermodynamics is used in many modern engineering systems. In power plants it helps us analyse how fuel energy is converted into electricity. In refrigerators and air conditioners it explains how heat is removed from a cold place and rejected to a hot place. In renewable energy, like solar or geothermal plants, we still use thermodynamic cycles to turn heat into useful power.\n\nNormally we choose the working fluid or the main device as the system and the rest of the environment as surroundings. The boundary is the surface of the equipment. Using the laws of thermodynamics on this system, we can calculate efficiency and losses and try to design better and more efficient machines."
+        }
+    ]
+}
